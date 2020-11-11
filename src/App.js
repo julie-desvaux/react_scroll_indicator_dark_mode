@@ -1,25 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Contenu from './Components/Contenu/Contenu';
+import BtnToggle from './Components/BtnToggle/BtnToggle';
+import ThemeContextProvider from './Context/ThemeContext';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeContextProvider>
+        <BtnToggle />
+        <Contenu />
+      </ThemeContextProvider>      
     </div>
   );
+
 }
 
 export default App;

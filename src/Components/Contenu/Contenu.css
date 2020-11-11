@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background: #f1f1f1;
+}
+
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+}
+
+.progress-bar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenu {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px 4vw;
+    transition: all 0.2s ease-in-out;
+}
+
+.contenu.dark {
+    color: #f1f1f1;
+    background: #333;
+}
+
+.contenu.light {
+    color: #333;
+    background: #f1f1f1;
+}
