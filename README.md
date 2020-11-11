@@ -10,4 +10,4 @@
 
 
 ## 
-![Visuel](https://www.julie-desvaux.com/images/react_context_scroll_indicator.gif "Visuel")
+![](https://www.julie-desvaux.com/images/react_context_scroll_indicator.gif)
